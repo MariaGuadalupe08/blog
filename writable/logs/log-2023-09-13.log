@@ -1,0 +1,470 @@
+ERROR - 2023-09-13 14:22:54 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(NULL)
+#5 C:\Users\Lupita\Downloads\codeigniter\blog\system\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#6 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\Users\Lupita\Downloads\codeigniter\blog\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: YES) in C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(NULL)
+#4 C:\Users\Lupita\Downloads\codeigniter\blog\system\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#5 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#6 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#7 C:\Users\Lupita\Downloads\codeigniter\blog\spark(102): CodeIgniter\CLI\Console->run()
+#8 {main}
+CRITICAL - 2023-09-13 14:22:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+ 3 SYSTEMPATH\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(null)
+ 4 SYSTEMPATH\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+ 5 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([...])
+ 6 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 7 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+ERROR - 2023-09-13 14:27:03 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: YES) in C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(NULL)
+#5 C:\Users\Lupita\Downloads\codeigniter\blog\system\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#6 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\Users\Lupita\Downloads\codeigniter\blog\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: YES) in C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(NULL)
+#4 C:\Users\Lupita\Downloads\codeigniter\blog\system\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#5 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#6 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#7 C:\Users\Lupita\Downloads\codeigniter\blog\spark(102): CodeIgniter\CLI\Console->run()
+#8 {main}
+CRITICAL - 2023-09-13 14:27:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+ 3 SYSTEMPATH\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(null)
+ 4 SYSTEMPATH\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+ 5 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([...])
+ 6 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 7 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+ERROR - 2023-09-13 14:29:36 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'blog', 3307, '', 0)
+#1 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(NULL)
+#5 C:\Users\Lupita\Downloads\codeigniter\blog\system\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#6 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\Users\Lupita\Downloads\codeigniter\blog\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(NULL)
+#4 C:\Users\Lupita\Downloads\codeigniter\blog\system\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#5 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#6 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#7 C:\Users\Lupita\Downloads\codeigniter\blog\spark(102): CodeIgniter\CLI\Console->run()
+#8 {main}
+CRITICAL - 2023-09-13 14:29:36 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+ 3 SYSTEMPATH\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(null)
+ 4 SYSTEMPATH\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+ 5 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([...])
+ 6 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 7 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+ERROR - 2023-09-13 14:30:35 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'blog', 3307, '', 0)
+#1 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(NULL)
+#5 C:\Users\Lupita\Downloads\codeigniter\blog\system\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#6 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\Users\Lupita\Downloads\codeigniter\blog\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(NULL)
+#4 C:\Users\Lupita\Downloads\codeigniter\blog\system\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#5 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#6 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#7 C:\Users\Lupita\Downloads\codeigniter\blog\spark(102): CodeIgniter\CLI\Console->run()
+#8 {main}
+CRITICAL - 2023-09-13 14:30:35 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+ 3 SYSTEMPATH\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(null)
+ 4 SYSTEMPATH\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+ 5 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([...])
+ 6 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 7 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+ERROR - 2023-09-13 14:31:38 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'blog', 3306, '', 0)
+#1 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(NULL)
+#5 C:\Users\Lupita\Downloads\codeigniter\blog\system\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#6 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\Users\Lupita\Downloads\codeigniter\blog\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(NULL)
+#4 C:\Users\Lupita\Downloads\codeigniter\blog\system\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#5 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#6 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#7 C:\Users\Lupita\Downloads\codeigniter\blog\spark(102): CodeIgniter\CLI\Console->run()
+#8 {main}
+CRITICAL - 2023-09-13 14:31:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+ 3 SYSTEMPATH\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(null)
+ 4 SYSTEMPATH\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+ 5 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([...])
+ 6 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 7 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+ERROR - 2023-09-13 14:32:13 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'blog', 3306, '', 0)
+#1 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(NULL)
+#5 C:\Users\Lupita\Downloads\codeigniter\blog\system\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#6 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\Users\Lupita\Downloads\codeigniter\blog\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(NULL)
+#4 C:\Users\Lupita\Downloads\codeigniter\blog\system\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#5 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#6 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#7 C:\Users\Lupita\Downloads\codeigniter\blog\spark(102): CodeIgniter\CLI\Console->run()
+#8 {main}
+CRITICAL - 2023-09-13 14:32:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+ 3 SYSTEMPATH\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(null)
+ 4 SYSTEMPATH\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+ 5 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([...])
+ 6 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 7 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+ERROR - 2023-09-13 14:35:13 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'blog' in C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'blog', 3307, '', 0)
+#1 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(NULL)
+#5 C:\Users\Lupita\Downloads\codeigniter\blog\system\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#6 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\Users\Lupita\Downloads\codeigniter\blog\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'blog' in C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(NULL)
+#4 C:\Users\Lupita\Downloads\codeigniter\blog\system\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#5 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#6 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#7 C:\Users\Lupita\Downloads\codeigniter\blog\spark(102): CodeIgniter\CLI\Console->run()
+#8 {main}
+CRITICAL - 2023-09-13 14:35:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'blog'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+ 3 SYSTEMPATH\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(null)
+ 4 SYSTEMPATH\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+ 5 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([...])
+ 6 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 7 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+ERROR - 2023-09-13 14:38:01 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'blog', 3306, '', 0)
+#1 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(NULL)
+#5 C:\Users\Lupita\Downloads\codeigniter\blog\system\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#6 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\Users\Lupita\Downloads\codeigniter\blog\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(NULL)
+#4 C:\Users\Lupita\Downloads\codeigniter\blog\system\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#5 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#6 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#7 C:\Users\Lupita\Downloads\codeigniter\blog\spark(102): CodeIgniter\CLI\Console->run()
+#8 {main}
+CRITICAL - 2023-09-13 14:38:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+ 3 SYSTEMPATH\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(null)
+ 4 SYSTEMPATH\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+ 5 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([...])
+ 6 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 7 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+ERROR - 2023-09-13 14:38:40 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'blog', 3307, '', 0)
+#1 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(NULL)
+#5 C:\Users\Lupita\Downloads\codeigniter\blog\system\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#6 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\Users\Lupita\Downloads\codeigniter\blog\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(NULL)
+#4 C:\Users\Lupita\Downloads\codeigniter\blog\system\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#5 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#6 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#7 C:\Users\Lupita\Downloads\codeigniter\blog\spark(102): CodeIgniter\CLI\Console->run()
+#8 {main}
+CRITICAL - 2023-09-13 14:38:40 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+ 3 SYSTEMPATH\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(null)
+ 4 SYSTEMPATH\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+ 5 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([...])
+ 6 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 7 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+ERROR - 2023-09-13 14:39:53 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'blog', 3307, '', 0)
+#1 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(NULL)
+#5 C:\Users\Lupita\Downloads\codeigniter\blog\system\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#6 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\Users\Lupita\Downloads\codeigniter\blog\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(NULL)
+#4 C:\Users\Lupita\Downloads\codeigniter\blog\system\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#5 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#6 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#7 C:\Users\Lupita\Downloads\codeigniter\blog\spark(102): CodeIgniter\CLI\Console->run()
+#8 {main}
+CRITICAL - 2023-09-13 14:39:53 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+ 3 SYSTEMPATH\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(null)
+ 4 SYSTEMPATH\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+ 5 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([...])
+ 6 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 7 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+ERROR - 2023-09-13 14:40:17 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'blog' in C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'blog', 3307, '', 0)
+#1 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(NULL)
+#5 C:\Users\Lupita\Downloads\codeigniter\blog\system\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#6 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\Users\Lupita\Downloads\codeigniter\blog\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'blog' in C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(NULL)
+#4 C:\Users\Lupita\Downloads\codeigniter\blog\system\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#5 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#6 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#7 C:\Users\Lupita\Downloads\codeigniter\blog\spark(102): CodeIgniter\CLI\Console->run()
+#8 {main}
+CRITICAL - 2023-09-13 14:40:17 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'blog'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+ 3 SYSTEMPATH\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(null)
+ 4 SYSTEMPATH\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+ 5 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([...])
+ 6 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 7 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+ERROR - 2023-09-13 14:52:25 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), 'blog', 3307, '', 0)
+#1 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(NULL)
+#5 C:\Users\Lupita\Downloads\codeigniter\blog\system\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#6 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\Users\Lupita\Downloads\codeigniter\blog\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(NULL)
+#4 C:\Users\Lupita\Downloads\codeigniter\blog\system\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#5 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#6 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#7 C:\Users\Lupita\Downloads\codeigniter\blog\spark(102): CodeIgniter\CLI\Console->run()
+#8 {main}
+CRITICAL - 2023-09-13 14:52:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+ 3 SYSTEMPATH\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(null)
+ 4 SYSTEMPATH\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+ 5 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([...])
+ 6 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 7 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+ERROR - 2023-09-13 15:08:42 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'blog' in C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'lupis', Object(SensitiveParameterValue), 'blog', 3307, '', 0)
+#1 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#4 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(NULL)
+#5 C:\Users\Lupita\Downloads\codeigniter\blog\system\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#6 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#7 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#8 C:\Users\Lupita\Downloads\codeigniter\blog\spark(102): CodeIgniter\CLI\Console->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'blog' in C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#3 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(NULL)
+#4 C:\Users\Lupita\Downloads\codeigniter\blog\system\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+#5 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#6 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#7 C:\Users\Lupita\Downloads\codeigniter\blog\spark(102): CodeIgniter\CLI\Console->run()
+#8 {main}
+CRITICAL - 2023-09-13 15:08:42 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'blog'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\Database.php(66): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\Config.php(108): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+ 3 SYSTEMPATH\Database\Seeder.php(97): CodeIgniter\Database\Config::forge(null)
+ 4 SYSTEMPATH\Commands\Database\Seed.php(69): CodeIgniter\Database\Seeder->__construct(Object(Config\Database))
+ 5 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run([...])
+ 6 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', [...])
+ 7 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+ERROR - 2023-09-13 15:17:14 --> mysqli_sql_exception: Table 'blog.products' doesn't exist in C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseBuilder.php(1800): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', NULL, false)
+#4 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseBuilder.php(2191): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\Users\Lupita\Downloads\codeigniter\blog\app\Database\Seeds\ProductSeeder.php(45): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Seeder.php(146): App\Database\Seeds\ProductSeeder->run()
+#7 C:\Users\Lupita\Downloads\codeigniter\blog\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 C:\Users\Lupita\Downloads\codeigniter\blog\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-09-13 15:18:05 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseBuilder.php(1800): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', NULL, false)
+#4 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\BaseBuilder.php(2191): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 C:\Users\Lupita\Downloads\codeigniter\blog\app\Database\Seeds\ProductSeeder.php(45): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 C:\Users\Lupita\Downloads\codeigniter\blog\system\Database\Seeder.php(146): App\Database\Seeds\ProductSeeder->run()
+#7 C:\Users\Lupita\Downloads\codeigniter\blog\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 C:\Users\Lupita\Downloads\codeigniter\blog\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 C:\Users\Lupita\Downloads\codeigniter\blog\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
